@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+a{
+text-decoration: none;
+color: white ;
+width: fit-content;
+}
+#titulo {text-align: center;
+color: #f9f3f3;
+}
+.flex-container{
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(59, 2, 2);
+    margin: 0
+}
+.flex-container2{
+    display:flex ;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    height: 150px; ;
+    background-color:  rgb(59, 2, 2);
+
+}
+
+.titulo{
+    background-color: rgb(0, 0, 0)
+    color(white)
+
+
+}
+.logo{
+height: 100px;
+width: auto;
+}
+#logoinicio{
+   height: 300px; 
+   width: auto;
+   padding-left: 14%;
+}
+.imagenesredes {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+
+}
+
+.bodyflex{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 100vh;
+}
+.bodyflexbiografia{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 100vh;
+ background: linear-gradient(to bottom, #000000, #2c2b2b);
+}
+.flex-container3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
